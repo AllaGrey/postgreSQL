@@ -4,7 +4,7 @@ const { httpError, ctrlWrapper } = require("../../helpers");
 const { createHashPassword } = require("../../units");
 
 const register = async (req, res) => {
-  const verificationToken = uuid(); 
+  // const verificationToken = uuid(); 
 
   const { email, password } = req.body;
 
